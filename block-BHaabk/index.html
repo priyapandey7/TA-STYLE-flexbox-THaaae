@@ -1,0 +1,88 @@
+<!-- 
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+
+ 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog and Gallery </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+          <header class="header">
+            <div class="container">
+                  <a class="brand" href="#">
+                     <img src="assets/logo.jpeg" alt="Brand Logo">
+                  </a>
+
+                 <nav class="nav">
+                   <a href="#">Home</a>
+                   <a href="#">About</a>
+                   <a href="#">Showtime</a>
+                 </nav>
+             </div>
+          </header>
+         <main>
+              <article class="article">
+               
+                <div class="row">
+                    <div class="column">
+                         <h2>Tom & jerry</h2> <br>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iusto totam voluptate repellendus blanditiis aspernatur nihil dolore aliquid cupiditate autem exercitationem consequuntur explicabo dolores deleniti officia, at voluptatem quasi praesentium.
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat deleniti delectus vitae provident saepe hic corporis debitis odit id. Neque repellat nesciunt ex nulla quidem praesentium temporibus recusandae fugiat minima.
+                          </p>
+                    </div>
+                    <div class="column-2">
+                       <img class="pic" src="assets/images (3).jpeg" alt="tom&jerry">
+                     </div>
+                </div>
+              </article>
+
+             <section class="gallary">
+                  <div class="row">
+                      <div>
+                          <img class="pic" src="assets/pic6.jpeg" alt="tom&jerry">
+                      </div>
+                       <div>
+                           <img class="pic" src="assets/pic1.jpeg" alt="tom&jerry">
+                       </div>
+                       <div>
+                          <img class="pic" src="assets/pic2.jpeg" alt="tom&jerry">
+                       </div>
+                  </div>
+                  <div class="row">
+                          <div>
+                               <img class="pic" src="assets/pic7.jpeg" alt="tom&jerry">
+                           </div>
+                           <div>
+                              <img class="pic" src="assets/pic3.jpeg" alt="tom&jerry">
+                          </div>
+                          <div>
+                              <img class="pic" src="assets/pic4.jpeg" alt="tom&jerry">
+                          </div>
+                     </div>
+             </section>
+      </main>
+             <footer class="footer">
+               <nav class="link">
+                  <a href="https://facebook.com" target="_blanck">Facebook</a>&nbsp;&nbsp;
+                  <a href="https://twitter.com" target="_blanck">Twitter</a>&nbsp;&nbsp;  
+                  <a href="https://instagram.com" target="_blanck">Instagram</a>&nbsp;&nbsp; 
+             </nav>
+           </footer>
+    
+</body>
+</html>
