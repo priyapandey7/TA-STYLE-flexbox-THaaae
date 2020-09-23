@@ -6,3 +6,73 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper.
 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Gallery section </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+          <header class="header">
+            <div class="container flex">
+                  <a class="brand" href="#">
+                     <img src="assets/altcampus-logo.svg" alt="BrandLogo">
+                  </a>
+
+                 <nav class="nav">
+                   <a href="#">Home</a>
+                   <a class="text-color"href="#">Gallery</a>
+                   <a href="#">About</a>
+                 </nav>
+             </div>
+          </header>
+        <main>
+           <section class="gallery-section">
+             <h2 class="heading">GALLERY</h2>
+             <div class="flex">
+                   <div class="col-1">
+                     <img src="assets/01.png" alt="painting">
+                   </div>
+
+                   <div class="col-1">
+                     <img src="assets/02.png" alt="painting">
+                   </div>
+
+                   <div class="col-1">
+                       <img src="assets/03.png" alt="painting">
+                   </div>
+
+              </div>
+
+             <div class="flex">
+                  <div class="col-2">
+                      <img src="assets/04.png" alt="painting">
+                  </div>
+
+                  <div class="col-2">
+                        <img src="assets/05.png" alt="painting">
+                  </div>
+
+                   <div class="col-2">
+                     <img src="assets/06.png" alt="painting">
+                  </div>
+              </div>
+         </section>
+       </main>
+          <footer>
+            <div class="container flex">
+              <a href="#"><i class="fa fa-copyright"><b>AltCampus</b></i></a>
+              <nav>
+                <a href="#"><i class="fa fa-facebook-square"></i></a>
+                <a href="#"><i class="fa fa-twitter-square"></i></a>
+              </nav>
+            </div>
+          </footer>
+
+    </body>
+</html>       
