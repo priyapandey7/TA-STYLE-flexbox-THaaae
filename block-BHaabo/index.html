@@ -1,0 +1,96 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Gallery</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="assets/style.css">
+    </head>
+    <body>
+          <header class="header">
+           <div class="container flex">
+               <a href="https://altcampus.io"><img src="assets/altcampus-logo.svg" alt="Altcampus logo"></a>
+      
+              <nav class="nav">
+                 <a class="icon" href="#"><img src="assets/icons/bell.svg" alt="bell icon"></a>
+                 <a href="#"><span>Sarah Jhon</span></a>
+                   <a class="icon" href="#"><img src="assets/icons/user.svg" alt="user icon"></a>
+               </nav>
+           </div>
+          </header>
+      <div class="wraper"> 
+         <sidebar class="sidebar" >
+             <nav>
+                <a href="#">
+                  <img src="assets/icons/dashboard.svg" alt="dashboard icon">
+                  <span>Dashboard</span>
+                </a>
+                 <div class="text-wrap">
+                    <a  href="#">
+                       <img src="assets/icons/article.svg" alt="Article icon">
+                         <span>Article</span>
+                    </a>
+                 </div>
+
+                  <a href="#">
+                     <img src="assets/icons/analytics.svg" alt="Analytics icon">
+                     <span>Analytics</span>
+                   </a>
+
+                 <a href="#">
+                     <img src="assets/icons/inbox.svg" alt="Inbox icon">
+                     <span>Inbox</span>
+                 </a> 
+                   <a href="#">
+                     <img src="assets/icons/setting.svg" alt="setting icon">
+                    <span>Setting</span>
+                  </a> 
+                
+                   <button class="btn">
+                        <img src="assets/icons/log-out.svg" alt="log-out button">
+                        <span class="btn-wrap">Log Out</span>
+                    </button>
+                  
+              </nav>
+         
+         </sidebar >
+
+         <main class="maincontent">
+                 <article>
+                     <img src="assets/01.png" alt="Punch today in the face">
+                     <h1>Why we are doing Altcampus?</h1>
+                     <p>AltCampus is an alternative to college that you wish existed. Currently,
+                        we are offering an in-house, 6-month long program to train people in quality software development, 
+                        where they don’t have to pay anything until they are hired.
+                     </p>
+
+                     <p>We live in the world of digital skills. These skills are always evolving and so is their demand.
+                       Students/Professionals who are not responsive to the changes in industry demands, in terms of skills,
+                        will have a hard time surviving, well at least flourishing.
+                     </p>
+                     <button class="read">
+                         <a href="#">Read more</a>
+                     </button>
+                 </article>
+         </main>
+      </div>
+      <footer class="footer">
+         <div class="container flex" >
+            <a href="#"><i class="fa fa-copyright"><b>AltCampus</b></i></a>
+            <nav>
+              <a href="#"><i class="fa fa-facebook-square"></i></a>
+              <a href="#"><i class="fa fa-twitter-square"></i></a>
+            </nav>
+        </div>
+      </footer> 
+   </body>
+</html>
