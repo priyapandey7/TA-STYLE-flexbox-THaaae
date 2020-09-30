@@ -1,0 +1,178 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-3.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prism layout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container flex">
+              <a href="#">
+                <h2>Prism</h2>
+              </a>
+
+             <nav class="navigation">
+                <a href ="#">HOME</a>
+                <a href ="#">ABOUT</a>
+                <a href ="#">GENERIC</a>
+                <a href ="#">ELEMENT</a> 
+             </nav>
+         </div>
+
+           <div class="banner_container"> 
+             <div  class="banner_title">
+                  <h1>Welcome to Prism, a free  <br>
+                      responsive site template <br>
+                      by TEMPLATED <h1>
+             </div>
+         <hr>
+           <div class="banner_job">
+                 <p>  Lorem ipsum nisl sed cursus magna et amet veroeros. <br>
+                      Phasellus aliquam et tempus lorem dolor feugiat <br> adipiscing lorem.
+                  </p>
+                  <div class="btn">
+                    <b>Get Stated</b>
+                  </div>
+           </div>
+           
+          </div>
+    </header>
+
+    <!-- section-1 -->
+         <article class=" banner_container ">
+             <div class="article_content">
+                <h3>Magna feugiat adipiscing</h3>
+                 <b>Lorem ipsum nisl sed cursus magna et amet veroeros. Sed phasellus <br>
+                   aliquam et tempus lorem feugiat adipiscing lorem. 
+                   Morbi pharetra vitae <br> felis placerat pharetra.
+                   Nulla risus orci, dapibus id malesuada et nec <br>, malesuada quis orci. Pellentesque eget consequat
+                </b>
+               <div class="learnmore">
+                <b>Learn  More</b>
+                </div>
+            </div>
+                    <hr>
+             <div class="checklist"> 
+                  <ul>
+                      <li>Ipsum nisl sed cursus magna</li>
+                      <li>Amet veroeros sed aliquam consequat</li>
+                      <li>Tempus lorem adipiscing et lorem</li>
+                       <li>Morbi pharetra vitae felis placerat</li>
+                       <li>Pharetra nulla risus orci dapibus</li>
+                   </ul>
+                  
+            </div>
+            <hr> 
+       </article>
+       
+      
+        <section>
+            <div class=" gallery-section"> 
+                <div class="container flex">
+                   <div class="gallery-part"> 
+                     <img src="assets/pic01.jpg" alt="citylife"></div>  
+                   <div class="gallery-about " >
+                     <h4>Ipsum pharetra tempus</h4>
+                       <strong>Lorem ipsum nisl sed cursus magna et amet veroeros. Sed phasellus malesuada  quis orci.
+                             Pellentesque eget consequat.</strong>
+                        <div class=" button">
+                        <b>Details</b> 
+                       </div>   
+                          <hr>
+                    </div>
+              </div> 
+            </div>
+          </section>
+        <section>
+          <div class=" gallery-section"> 
+           <div class="container flex">
+            <div class="gallery-part"> 
+              <img src="assets/pic01.jpg" alt="citylife"></div>
+              <div class="gallery-about " >
+                <h4>Magna consequat felis</h4>
+                <strong>Lorem ipsum nisl sed cursus magna et amet veroeros. Sed phasellus malesuada  quis orci.
+                   Pellentesque eget consequat.</strong>
+                   <div class=" button">
+                     <b>Details</b> 
+                   </div>  
+                   <hr> 
+              </div>
+          </div>
+        </div>
+        </section>
+
+          <section>
+          <div class="container flex">
+            <div class="gallery-part"> 
+              <img src="assets/pic01.jpg" alt="citylife"></div>
+              <div class="gallery-about " >
+                <h4>Vitae placerat adipiscing</h4>
+                <strong>Lorem ipsum nisl sed cursus magna et amet veroeros. Sed phasellus malesuada  quis orci.
+                   Pellentesque eget consequat.</strong>
+                   <div class="button">
+                     <b>Details</b> 
+                   </div> 
+                   <hr>  
+              </div>
+          </div>
+          </div> 
+        </section>
+        <!--last button -->
+        <div class="last-button">
+        <div class=" button-last">
+          <b>Ipsum Megna Tampus</b> 
+        </div> 
+      </div>
+<section >
+  <!--  -->
+  <div class="contact-us">
+      <div class=" contact-details">
+
+          <h3>Orci malesuada</h3>
+          <p>Morbi pharetra vitae felis placerat pharetra. Nulla risus orci, dapibus id <br> malesuada et nec, malesuada quis pellentesque eget.</p>
+     <div class="text-box">
+      <input type="text"  name="firstname" placeholder="Your name..">
+      <input type="text"  name="firstname" placeholder=" Email..">
+
+      </div>
+      <div>
+      <textarea name ="message" rows="10" cols="42"> message</textarea>
+     </div>
+     <div class="send-messege">
+      <b>send message</b>
+      </div>
+    </div> 
+        <hr>
+         <!-- social icon -->
+          <div class="media-link">
+            <nav>
+              <a href="#"><i class=" fa fa-facebook-square"><strong> facebook.com/untitled-tld</strong></i></a> <br>
+              <a href="#"><i class="fa fa-twitter-square"><strong> twitter.com/untitled-tld</strong></i></a> <br>
+              <a href="#"><i class="fa fa-instagram"><strong> instagram.com/untitled-tld</strong></i></a><br>
+              <a href="#"><i class="fa fa-envelope icon"><strong> information@untitled.tld </i></strong></a><br>
+              <a href="#"> <i class="fa fa-home"><strong>1234 Somewhere Road Suite 9823<br>
+              &nbsp;&nbsp;&nbsp; Nashville, TN 00000-0000</strong></i> </a><br>
+            </nav>
+           
+          </div>
+          
+        </div>
+        <hr>
+</section> 
+<footer>
+  © Untitled. All rights reserved. Images: Unsplash. Design: TEMPLATED.
+</footer>
+</body>
+</html>
